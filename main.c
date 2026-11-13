@@ -16,18 +16,18 @@ int main()
 
                 switch(c)
                 {
-                        case 'a':
+                        case 'add':
                                 printf("insert two operand: ");
                                 scanf("%d %d", &a, &b);
                                 printf("the answer is : %d\n\n", add(a, b));
                                 break;
-                        case 's':
+                        case 'subtraction':
                                 printf("insert two operand: ");
                                 scanf("%d %d", &a, &b);
                                 printf("the answer is : %d\n\n", sub(a, b));
                                 break;
 
-                        case 'd':
+                        case 'divide':
                                 printf("insert two operand: ");
                                 scanf("%d %d", &a, &b);
                                 if (b == 0) 
@@ -35,13 +35,13 @@ int main()
                                 else 
                                         printf("the answer is : %d\n\n", div(a, b));
                                 break;
-                        case 'm':
+                        case 'multiply':
                                 printf("insert two operand: ");
                                 scanf("%d %d", &a, &b);
                                 printf("the answer is : %d\n\n", mul(a,b));
                                 break;
 
-                        case 'q':
+                        case 'quit':
                                 return 0;
                                 break;
                         default :
